@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Funcionalidades — PSDI</title>
+<style>
+  body{font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:#f7fafc;color:#111827}
+  .container{max-width:1100px;margin:28px auto;padding:0 18px}
+  .card{background:#fff;padding:18px;border-radius:10px;box-shadow:0 6px 18px rgba(17,24,39,0.06)}
+  a.button{display:inline-block;padding:10px 14px;border-radius:8px;background:#0b5fff;color:#fff;text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+<header style="background:#fff;border-bottom:1px solid #e5e7eb;padding:18px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap">
+  <div style="display:flex;align-items:center;gap:14px">
+    <img src="assets/logo.svg" alt="PSDI Logo" style="height:56px"/>
+    <div>
+      <div style="font-weight:700;font-size:18px;color:#111827">Programa de Saúde Digital Integrado (PSDI)</div>
+      <div style="font-size:13px;color:#6b7280">ACS App + Prontuário Integrado — Atenção Primária</div>
+    </div>
+  </div>
+  <nav style="display:flex;gap:14px;margin-top:8px">
+    <a href="index.html" style="color:#0b5fff;text-decoration:none;font-weight:600">Início</a>
+    <a href="funcionalidades.html" style="color:#374151;text-decoration:none">Funcionalidades</a>
+    <a href="arquitetura.html" style="color:#374151;text-decoration:none">Arquitetura</a>
+    <a href="contato.html" style="color:#374151;text-decoration:none">Contato</a>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="card">
+    <h1>Funcionalidades Principais</h1>
+    <p style="color:#6b7280">Resumo das capacidades do App ACS, Portal Clínico e Painéis de Gestão & Vigilância</p>
+
+    <h2 style="margin-top:14px">Aplicativo do ACS</h2>
+    <ul style="color:#374151">
+      <li>Cadastro territorial: microáreas, famílias, domicílios, georreferência e informações socioeconômicas.</li>
+      <li>Cadastro individual: CNS/CPF, contatos, consentimento, condições crônicas, alergias, medicações.</li>
+      <li>Visitas (rotina, busca ativa, focadas): checklists configuráveis, anexos (fotos/documentos), assinatura no dispositivo.</li>
+      <li>Offline-first: banco local criptografado, fila de sincronização, resolução de conflitos por timestamps.</li>
+    </ul>
+
+    <h2 style="margin-top:12px">Portal Clínico (UBS / Hospital)</h2>
+    <ul style="color:#374151">
+      <li>Prontuário longitudinal: alergias, problemas, medicações, vacinas, exames e evoluções.</li>
+      <li>Prescrição com checagem de interações; solicitação de exames; módulo de urgência.</li>
+      <li>Acolhimento/triagem, registro de atendimento (SOAP) e atestados.</li>
+    </ul>
+
+    <h2 style="margin-top:12px">Painel de Gestão & Vigilância</h2>
+    <ul style="color:#374151">
+      <li>Indicadores: cobertura vacinal, consultas pré-natal, controle glicêmico/PA, visitas realizadas.</li>
+      <li>Mapas por microárea, alertas populacionais, auditoria e qualidade de dados.</li>
+    </ul>
+
+    <div style="margin-top:16px">
+      <a class="button" href="index.html">Voltar ao início</a>
+    </div>
+  </div>
+</main>
+<footer style="border-top:1px solid #e5e7eb;padding:18px 24px;margin-top:36px;background:#fff;display:flex;justify-content:space-between;flex-wrap:wrap;color:#6b7280;font-size:13px">
+  <div>© 2025 Programa de Saúde Digital Integrado — Desenvolvido para Atenção Primária.</div>
+  <div>Contato: <a href="mailto:contato@psdi.example">contato@psdi.example</a></div>
+</footer>
+
+</body>
+</html>
